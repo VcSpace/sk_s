@@ -65,13 +65,13 @@ def get_random_useragent():
 
 class Config(object):
     def __init__(self):
-       self.username = '13186328632'
-       self.password = 'kewang@456'
-       self.website = 'https://h5.stararknft.art/#/index'
-       self.loginurl = 'https://h5.stararknft.art/#/login'
-       self.mineurl = 'https://h5.stararknft.art/#/mine'
-       self.orderurl = 'https://h5.stararknft.art/#/myOrder'
-       self.mywallet = 'https://h5.stararknft.art/#/myWallet'
+       self.username = ''
+       self.password = '6'
+       self.website = 'https://.art/#/index'
+       self.loginurl = 'https://.art/#/login'
+       self.mineurl = 'https://.art/#/mine'
+       self.orderurl = 'https://.art/#/myOrder'
+       self.mywallet = 'https://.art/#/myWallet'
        self.buytarget = self.get_target()
 
 
