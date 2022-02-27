@@ -88,7 +88,6 @@ class Config(object):
         args = parse.parse_args()
         buyurl = args.l
         self.payword = args.p
-        print(self.payword)
         while (buyurl == None):
             buyurl = input("输入购买目标地址:")
 
